@@ -163,8 +163,7 @@ void AskQuestions(stQuiz& Quiz)
 void PlayMathGame()
 {
     stQuiz Quiz;
-
-    cout << "How many questions [1-100]? ";
+    cout << "Choose how many questions you want (1-100): ";
     cin >> Quiz.NumberOfQuestions;
 
     int Choice;
